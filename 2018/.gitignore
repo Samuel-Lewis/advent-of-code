@@ -1,0 +1,14 @@
+
+## General
+.DS_Store
+.vscode
+.idea
+
+## C / C++
+*.out
+
+## JAVA
+*.class
+
+## KOTLIN
+*.jar
