@@ -24,12 +24,13 @@ const test =
         console.log("Pass ✔️");
       } else {
         console.log("Fail ❌");
+        console.log("- Expected", expected);
         pass = false;
       }
     } else {
       console.log("Done 💡");
     }
-    console.log("Answer", actual);
+    console.log("- Result", actual);
     console.groupEnd();
     return pass;
   };
